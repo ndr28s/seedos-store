@@ -1,7 +1,7 @@
 {
   "schema": "nanos.store.catalog",
   "schema_version": 1,
-  "generated_at": "2026-09-05T07:31:28Z",
+  "generated_at": "2026-09-05T10:07:08Z",
   "apps": [
     {
       "id": "dev.nanos.hello",
@@ -40,6 +40,24 @@
         "url": "https://ndr28s.github.io/seedos-store/packages/dev.seedos.device-demo/0.1.0/dev.seedos.device-demo-0.1.0.seedapp",
         "size": 2237,
         "sha256": "d5a6913e656f2eefc2a6e92c0182ef0a1c50308f3954e80f0770981518e09d84",
+        "signature_algorithm": "ecdsa-p256-sha256",
+        "key_id": "seedos-store-2026"
+      }
+    },
+    {
+      "id": "dev.seedos.pet",
+      "name": "Seed Pet",
+      "summary": "Feed, play and rest with a tiny saved pet",
+      "version": "0.1.0",
+      "min_api": 3,
+      "runtime": "lua",
+      "capabilities": [
+        "storage"
+      ],
+      "package": {
+        "url": "https://ndr28s.github.io/seedos-store/packages/dev.seedos.pet/0.1.0/dev.seedos.pet-0.1.0.nanoapp",
+        "size": 5968,
+        "sha256": "d4628f9a1d491ab390da7c8db09dce8d596b9e3ada2d03876e995f726c6b6137",
         "signature_algorithm": "ecdsa-p256-sha256",
         "key_id": "seedos-store-2026"
       }
