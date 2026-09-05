@@ -17,12 +17,16 @@
   },
   "$defs": {
     "capability": {
-      "enum": ["network", "storage", "audio", "sensor", "notifications"]
+      "enum": ["network", "storage", "audio", "sensor", "notifications", "peer"]
     },
     "app": {
       "type": "object",
       "additionalProperties": false,
       "required": ["id", "name", "summary", "version", "min_api", "runtime", "capabilities", "package"],
+      "allOf": [{
+        "if": {"properties": {"capabilities": {"contains": {"const": "peer"}}}},
+        "then": {"properties": {"min_api": {"minimum": 4}}}
+      }],
       "properties": {
         "id": { "type": "string", "pattern": "^[a-z0-9._-]{1,39}$" },
         "name": { "type": "string", "minLength": 1, "maxLength": 31 },
@@ -33,7 +37,7 @@
         "capabilities": {
           "type": "array",
           "uniqueItems": true,
-          "maxItems": 5,
+          "maxItems": 6,
           "items": { "$ref": "#/$defs/capability" }
         },
         "package": {
