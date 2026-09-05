@@ -1,7 +1,7 @@
 {
   "schema": "nanos.store.catalog",
   "schema_version": 1,
-  "generated_at": "2026-09-05T07:28:18Z",
+  "generated_at": "2026-09-05T07:31:28Z",
   "apps": [
     {
       "id": "dev.nanos.hello",
