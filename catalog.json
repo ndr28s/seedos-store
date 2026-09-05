@@ -1,0 +1,48 @@
+{
+  "schema": "nanos.store.catalog",
+  "schema_version": 1,
+  "generated_at": "2026-09-05T07:28:18Z",
+  "apps": [
+    {
+      "id": "dev.nanos.hello",
+      "name": "Hello",
+      "summary": "First interactive SeedApp",
+      "version": "0.1.0",
+      "min_api": 2,
+      "runtime": "lua",
+      "capabilities": [
+        "storage",
+        "notifications"
+      ],
+      "package": {
+        "url": "https://ndr28s.github.io/seedos-store/packages/dev.nanos.hello/0.1.0/dev.nanos.hello-0.1.0.nanoapp",
+        "size": 1337,
+        "sha256": "7a555c105fa9f6f4f0761a30dd3732abd399815c88ada7cd2113a058fac30fb9",
+        "signature_algorithm": "ecdsa-p256-sha256",
+        "key_id": "seedos-store-2026"
+      }
+    },
+    {
+      "id": "dev.seedos.device-demo",
+      "name": "Device Demo",
+      "summary": "SeedApp API v3 device services demo",
+      "version": "0.1.0",
+      "min_api": 3,
+      "runtime": "lua",
+      "capabilities": [
+        "storage",
+        "audio",
+        "sensor",
+        "notifications",
+        "network"
+      ],
+      "package": {
+        "url": "https://ndr28s.github.io/seedos-store/packages/dev.seedos.device-demo/0.1.0/dev.seedos.device-demo-0.1.0.seedapp",
+        "size": 2237,
+        "sha256": "d5a6913e656f2eefc2a6e92c0182ef0a1c50308f3954e80f0770981518e09d84",
+        "signature_algorithm": "ecdsa-p256-sha256",
+        "key_id": "seedos-store-2026"
+      }
+    }
+  ]
+}
