@@ -15,9 +15,9 @@
         "notifications"
       ],
       "package": {
-        "url": "https://ndr28s.github.io/seedos-store/packages/dev.nanos.hello/0.1.0/dev.nanos.hello-0.1.0.nanoapp",
+        "url": "https://ndr28s.github.io/seedos-store/v4/packages/dev.nanos.hello/0.1.0/dev.nanos.hello-0.1.0.nanoapp",
         "size": 1337,
-        "sha256": "7a555c105fa9f6f4f0761a30dd3732abd399815c88ada7cd2113a058fac30fb9",
+        "sha256": "5558109a3dcd3836d1e539464a83dc52ae033f037a27573a59cf8d51a0bad8b2",
         "signature_algorithm": "ecdsa-p256-sha256",
         "key_id": "seedos-store-2026"
       }
@@ -37,9 +37,25 @@
         "network"
       ],
       "package": {
-        "url": "https://ndr28s.github.io/seedos-store/packages/dev.seedos.device-demo/0.1.0/dev.seedos.device-demo-0.1.0.seedapp",
+        "url": "https://ndr28s.github.io/seedos-store/v4/packages/dev.seedos.device-demo/0.1.0/dev.seedos.device-demo-0.1.0.seedapp",
         "size": 2237,
-        "sha256": "d5a6913e656f2eefc2a6e92c0182ef0a1c50308f3954e80f0770981518e09d84",
+        "sha256": "3515faa0564cbc52c6a36dae049b27f1918f332a7692fa621616f659f0f95896",
+        "signature_algorithm": "ecdsa-p256-sha256",
+        "key_id": "seedos-store-2026"
+      }
+    },
+    {
+      "id": "dev.seedos.graphics.demo",
+      "name": "Graphics Demo",
+      "summary": "SeedApp API v4 graphics playground",
+      "version": "0.1.0",
+      "min_api": 4,
+      "runtime": "lua",
+      "capabilities": [],
+      "package": {
+        "url": "https://ndr28s.github.io/seedos-store/v4/packages/dev.seedos.graphics.demo/0.1.0/dev.seedos.graphics.demo-0.1.0.nanoapp",
+        "size": 1547,
+        "sha256": "85086625ca0149b78df6b679f2d2fe981b2d793d96890674f19aef96b1285c89",
         "signature_algorithm": "ecdsa-p256-sha256",
         "key_id": "seedos-store-2026"
       }
@@ -55,9 +71,9 @@
         "storage"
       ],
       "package": {
-        "url": "https://ndr28s.github.io/seedos-store/packages/dev.seedos.pet/0.2.0/dev.seedos.pet-0.2.0.seedapp",
+        "url": "https://ndr28s.github.io/seedos-store/v4/packages/dev.seedos.pet/0.2.0/dev.seedos.pet-0.2.0.seedapp",
         "size": 16408,
-        "sha256": "595200aa550a2c4e13183e5188cf3d1e3d4e78efbdc3556098adddbbb49012e3",
+        "sha256": "af37bee60586bf9372eec990a1c036128141145d20255c5a89df4b8323bb67b9",
         "signature_algorithm": "ecdsa-p256-sha256",
         "key_id": "seedos-store-2026"
       }

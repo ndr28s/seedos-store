@@ -1,0 +1,8 @@
+{
+  "schema": "seedos.store.deployment",
+  "schema_version": 1,
+  "catalog_url": "https://ndr28s.github.io/seedos-store/v4/catalog.json",
+  "public_key_url": "https://ndr28s.github.io/seedos-store/v4/store-public.pem",
+  "key_id": "seedos-store-2026",
+  "apps": 4
+}
