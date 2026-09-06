@@ -1,7 +1,7 @@
 {
   "schema": "nanos.store.catalog",
   "schema_version": 1,
-  "generated_at": "2026-09-06T06:24:13Z",
+  "generated_at": "2026-09-06T07:06:12Z",
   "apps": [
     {
       "id": "dev.nanos.hello",
@@ -48,14 +48,14 @@
       "id": "dev.seedos.graphics.demo",
       "name": "Graphics Demo",
       "summary": "SeedApp API v4 graphics playground",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "min_api": 4,
       "runtime": "lua",
       "capabilities": [],
       "package": {
-        "url": "https://ndr28s.github.io/seedos-store/v4/packages/dev.seedos.graphics.demo/0.1.0/dev.seedos.graphics.demo-0.1.0.nanoapp",
-        "size": 1547,
-        "sha256": "85086625ca0149b78df6b679f2d2fe981b2d793d96890674f19aef96b1285c89",
+        "url": "https://ndr28s.github.io/seedos-store/v4/packages/dev.seedos.graphics.demo/0.1.1/dev.seedos.graphics.demo-0.1.1.nanoapp",
+        "size": 1554,
+        "sha256": "a6422faa5a2968b38481157094a6eadd6c02c9f0a8f20ad0cc4005f6dd39ceee",
         "signature_algorithm": "ecdsa-p256-sha256",
         "key_id": "seedos-store-2026"
       }
