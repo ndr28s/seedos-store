@@ -1,7 +1,7 @@
 {
   "schema": "nanos.store.catalog",
   "schema_version": 1,
-  "generated_at": "2026-09-06T07:06:12Z",
+  "generated_at": "2026-09-07T15:29:47Z",
   "apps": [
     {
       "id": "dev.nanos.hello",
@@ -63,17 +63,17 @@
     {
       "id": "dev.seedos.pet",
       "name": "Seed Pet",
-      "summary": "A colourful little seed pet: feed, play, rest and save",
-      "version": "0.2.0",
-      "min_api": 3,
+      "summary": "An animated seed pet with touch care, clear needs and a lasting save",
+      "version": "0.3.0",
+      "min_api": 4,
       "runtime": "lua",
       "capabilities": [
         "storage"
       ],
       "package": {
-        "url": "https://ndr28s.github.io/seedos-store/v4/packages/dev.seedos.pet/0.2.0/dev.seedos.pet-0.2.0.seedapp",
-        "size": 16408,
-        "sha256": "af37bee60586bf9372eec990a1c036128141145d20255c5a89df4b8323bb67b9",
+        "url": "https://ndr28s.github.io/seedos-store/v4/packages/dev.seedos.pet/0.3.0/dev.seedos.pet-0.3.0.seedapp",
+        "size": 18341,
+        "sha256": "656f4280acf29b89c65f96569046cb58f11577d4492e46c93eaab46e8e0cbd67",
         "signature_algorithm": "ecdsa-p256-sha256",
         "key_id": "seedos-store-2026"
       }
