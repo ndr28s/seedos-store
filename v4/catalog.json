@@ -1,7 +1,7 @@
 {
   "schema": "nanos.store.catalog",
   "schema_version": 1,
-  "generated_at": "2026-09-12T06:08:16Z",
+  "generated_at": "2026-09-12T06:56:14Z",
   "apps": [
     {
       "id": "dev.nanos.hello",
@@ -26,7 +26,7 @@
       "id": "dev.seedos.air-radar",
       "name": "Air Radar",
       "summary": "100 km ADS-B radar, up to 12 nearby aircraft; extended OS required",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "min_api": 4,
       "runtime": "lua",
       "capabilities": [
@@ -34,9 +34,9 @@
         "storage"
       ],
       "package": {
-        "url": "https://ndr28s.github.io/seedos-store/v4/packages/dev.seedos.air-radar/0.1.0/dev.seedos.air-radar-0.1.0.nanoapp",
-        "size": 9990,
-        "sha256": "55cdb7f592999d3d7bb9ec1e2ee3cfa3906669ca598dfd56b83bcc6e85e1c9ee",
+        "url": "https://ndr28s.github.io/seedos-store/v4/packages/dev.seedos.air-radar/0.2.0/dev.seedos.air-radar-0.2.0.nanoapp",
+        "size": 11188,
+        "sha256": "44d2592930f0a1a6a0a040d4a4d0e92bd96d0f91de3be91d286fa57e0929be87",
         "signature_algorithm": "ecdsa-p256-sha256",
         "key_id": "seedos-store-2026"
       }
