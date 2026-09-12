@@ -1,7 +1,7 @@
 {
   "schema": "nanos.store.catalog",
   "schema_version": 1,
-  "generated_at": "2026-09-12T08:13:31Z",
+  "generated_at": "2026-09-12T08:37:35Z",
   "apps": [
     {
       "id": "dev.nanos.hello",
@@ -26,7 +26,7 @@
       "id": "dev.seedos.air-radar",
       "name": "Air Radar",
       "summary": "100km radar. ADSB.lol / ODbL 1.0. Not for navigation; new OS required",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "min_api": 4,
       "runtime": "lua",
       "capabilities": [
@@ -34,9 +34,9 @@
         "storage"
       ],
       "package": {
-        "url": "https://ndr28s.github.io/seedos-store/v4/packages/dev.seedos.air-radar/0.3.0/dev.seedos.air-radar-0.3.0.nanoapp",
-        "size": 9900,
-        "sha256": "2f64ad3f7b205e126f866585e1a66be8b9f4cba7a9ac1bc2822f494e22112fcf",
+        "url": "https://ndr28s.github.io/seedos-store/v4/packages/dev.seedos.air-radar/0.3.1/dev.seedos.air-radar-0.3.1.nanoapp",
+        "size": 9691,
+        "sha256": "96ecff63d1e96a614912f6280a9dcd697e9261bafbe3f2ee8d22f2d0d471a7dd",
         "signature_algorithm": "ecdsa-p256-sha256",
         "key_id": "seedos-store-2026"
       }
